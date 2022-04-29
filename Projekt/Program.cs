@@ -9,10 +9,10 @@
         var index = InterpolationSearch(arr, 0, n - 1, x);
         
         if (index != -1) {
-            Console.WriteLine("Element found at index " + index);
+            Console.WriteLine("Element {" + x + "} znajduje sie w indeksie: " + index);
         }
         else {
-            Console.WriteLine("Element not found.");
+            Console.WriteLine("Element nie znaleziony.");
         }
     }
 
